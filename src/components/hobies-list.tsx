@@ -8,7 +8,7 @@ const HobiesList = () => {
     <div className="flex flex-col gap-4  max-w-md border border-gray-300 rounded-md mb-3 shadow-md p-4 w-full">
       {hobies.length === 0 && (
         <h2 className="text-xl text-gray-400 font-bold text-center">
-          No hobbies added
+          Ще немає звичок...
         </h2>
       )}
       {hobies.map((hobby) => (
