@@ -27,7 +27,7 @@ A simple **Habit Tracker** built with **React.js**, **Tailwind CSS**, using **Co
 ### 🚀 Getting Started
 
 ```bash
-git clone https://github.com/lokki931/tracker-hobby
+git clone https://github.com/lokki931/tracker-hobies
 cd habit-tracker
 npm install
 npm run dev
