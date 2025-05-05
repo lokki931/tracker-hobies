@@ -1,0 +1,38 @@
+@import "tailwindcss";
+.calendar {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.calendar-grid div {
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.prev-month,
+.other-month {
+  color: #bbb;
+}
+
+.today {
+  background-color: #d0eaff;
+  font-weight: bold;
+}
+
+.marked {
+  background-color: #d4ed4b;
+}
